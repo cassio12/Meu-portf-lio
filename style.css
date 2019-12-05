@@ -24,7 +24,7 @@
     color: #ffffff;
     margin: 0;
 }
-.cabecalho-boxNavegatio {
+.cabecalho-boxNavegation {
     width: 55%;
     display: flex;
     flex-direction: row;
@@ -40,7 +40,11 @@
     margin: 0;
 }
 
-.boxList-itemList {
+/* .boxList-itemList {
+    color: #ffffff;
+} */
+.boxList-itemList a{
+    text-decoration: none;
     color: #ffffff;
 }
 .boxNavegario-boxPesquisa {
@@ -57,6 +61,7 @@
     animation-duration: .5s;
     background-color: #000000;
     transition: width .5s;
+    cursor: pointer;
 }
 .boxPesquisa-imgIcom:hover {
     width: 30px;

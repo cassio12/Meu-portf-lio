@@ -9,14 +9,22 @@
 <body class="body">
     <header class="body-cabecalho">
         <figure class="cabecalho-boxLogo">
-            <P class="boxLogo-imgLogo">My logo</P>
+            <p class="boxLogo-imgLogo">My logo</p>
         </figure>
-        <nav class="cabecalho-boxNavegatio">
+        <nav class="cabecalho-boxNavegation">
             <ul class="boxNavegatio-boxList">
-                <li class="boxList-itemList">Home</li>
-                <li class="boxList-itemList">Sobre</li>
-                <li class="boxList-itemList">Objetivo</li>
-                <li class="boxList-itemList">Contato</li>
+                <li class="boxList-itemList">
+                    <a href="/">Home</a>
+                </li>
+                <li class="boxList-itemList">
+                    <a href="/">Sobre</a>
+                </li>
+                <li class="boxList-itemList">
+                    <a href="/">Objetivo</a>
+                </li>
+                <li class="boxList-itemList">
+                    <a href="/">Contato</a>
+                </li>
             </ul>
             <div class="boxNavegario-boxPesquisa">
                 <img class="boxPesquisa-imgIcom" src="img/lupa.jpg" onclick="abrirBarraPesquisa()">
@@ -24,7 +32,28 @@
             </div>
         </nav>
     </header>
-    <main class="body-conteudoPrincipal"></main>
+    <main class="body-conteudoPrincipal">
+        <nav class="conteudoPrincipal-lateralBoxNavegation">
+            <div class="lateralBoxNavegation-boxItens">
+                <div class="boxItens-navegationsItens">
+                    <img class="navegationsItens-img" src="./img/menseger.png" >
+                    <p class="navegationsItens-nameIten"></p>
+                </div>
+                <div class="boxItens-navegationsItens">
+                    <img class="navegationsItens-img" src="" >
+                    <p class="navegationsItens-nameIten"></p>
+                </div>
+                <div class="boxItens-navegationsItens">
+                    <img class="navegationsItens-img" src="" >
+                    <p class="navegationsItens-nameIten"></p>
+                </div>
+                <div class="boxItens-navegationsItens">
+                    <img class="navegationsItens-img" src="" >
+                    <p class="navegationsItens-nameIten"></p>
+                </div>
+            </div>
+        </nav>
+    </main>
     <script src="main.js"></script>
 </body>
 </html>
